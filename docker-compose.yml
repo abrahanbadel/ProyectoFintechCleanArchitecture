@@ -1,0 +1,4 @@
+﻿# Orquestación full stack: usar fintech-infra (DB + backend + frontend).
+# Desde la raíz también puedes: docker compose -f fintech-infra/docker-compose.yml --env-file fintech-infra/.env up --build
+include:
+  - path: fintech-infra/docker-compose.yml
